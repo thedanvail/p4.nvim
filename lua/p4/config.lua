@@ -17,4 +17,11 @@ M.writeConfig = function(config)
     end
 end
 
+M.addToConfig = function()
+end
+
+M.getConfig = function()
+    return M.config
+end
+
 return M
